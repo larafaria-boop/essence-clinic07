@@ -26,12 +26,12 @@ p {
 
 a {
     text-decoration: none;
-    color:white;
+    color:#168260;
 }
 
 header {
     background-color: #174A3A;
-    color: white;
+    color:white;
     padding: 20px;
     text-align:center;
 }
@@ -55,7 +55,7 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color:white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
@@ -74,11 +74,11 @@ main {
 }
 
 section { 
-    background-color: #FFFFFF; 
+    background-color: #174A3A; 
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 8px; 
-    border: 1px solid #E5D39A; }
+    border: 1px solid #66ac7f; }
 
 footer {
     background-color: #174A3A;
@@ -119,7 +119,7 @@ td {
 /* ===== SEÇÕES ===== */
 
 section {
-    background-color: white;
+    background-color:white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -130,7 +130,7 @@ section {
 
 button {
     background-color: #174A3A;
-    color: white;
+    color:white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -176,14 +176,10 @@ button {
     background-image: url("imagemhidratacaofacial.jpg");
 }
 
-h1 {
-    color: #174A3A;
-}
-
-h2 {
-    color: #174A3A;
-}
-
+/* ===== SELETOR COMPARTILHADO ===== */
+h1, 
+h2, 
 h3 {
     color: #174A3A;
 }
+
