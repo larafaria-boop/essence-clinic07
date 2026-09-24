@@ -13,6 +13,8 @@ body {
 h1 {
     font-size: 32px;
     font-style: italic;
+
+
 }
 h3 {
     color:white;
@@ -83,4 +85,93 @@ footer {
     color:white;
     text-align: center;
     padding: 20px;
+}
+
+table {
+    border: 1px solid #66ac7f;
+}
+
+th,
+td {
+    border: 1px solid #66ac7f;
+}
+
+/* ===== SELETOR DE CLASSE ===== */
+.card {
+    background-color: #E8F3EC;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 50px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.foto {
+    background-color: #E8F3EC;
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+
+/* ===== SEÇÕES ===== */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
+/* ===== BOTÃO ===== */
+
+button {
+    background-color: #174A3A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ===== SELETOR DE ID ===== */
+#sobre {
+    padding: 24px 0;
+}
+
+#portfólio {
+    padding: 24px;
+}
+
+#pacotes {
+    background-color: #E8F3EC;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#horario {
+    background-color: #E8F3EC;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+#foto-limpeza-de-pele {
+    background-image: url("imagemlimpeza\ de\ pele.jpg");
+}
+
+#foto-massagem-relaxante {
+    background-image: url("imagemmassagemrelaxante.jpg");
+}
+#foto-drenagem-corporal {
+    background-image: url("imagemdrenagemcorporal.jpg");
+}
+
+#foto-design-de-sobrancelha {
+    background-image: url("imagemdesingdesobrancelha.jpg");
+}
+#foto-hidratacao-facial {
+    background-image: url("imagemhidratacaofacial.jpg");
 }
